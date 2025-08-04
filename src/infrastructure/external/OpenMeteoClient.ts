@@ -1,22 +1,22 @@
-import axios, { Axios } from "../../../node_modules/axios/index";
+// src/infrastructure/external/OpenMeteoClient.ts
+// import axios, { Axios } from '../../../node_modules/axios/index';
+// import axios from '../../../node_modules/axios/index';
+import axios from 'axios';
+import { WeatherApiResponse } from './types';
 
 export class OpenMeteoClient {
-  async fetchCurrentWeather(stationId: string): Promise<{
-    temperature: number;
-    humidity: number;
-    windSpeed: number;
-    precipitation: number;
-  }> {
-    // Simulate with mock response — real API call here later
-    const response = await axios.get(`https://api.openmeteo.com/observations/openmeteo/${stationId}/thb0`);
-    
-    const [timestamp, temperature, humidity, pressure] = response.data;
+  private baseUrl = 'https://api.open-meteo.com/v1/forecast';
 
-    return {
-      temperature,
-      humidity,
-      windSpeed: Math.random() * 10, // placeholder
-      precipitation: Math.random(),  // placeholder
-    };
+  async fetchWeather(lat: number, lon: number): Promise<WeatherApiResponse> {
+    const response = await axios.get(this.baseUrl, {
+      params: {
+        latitude: lat,
+        longitude: lon,
+        current_weather: true,
+        hourly: 'temperature_2m,relative_humidity_2m,precipitation,weathercode,windspeed_10m',
+      },
+    });
+
+    return response.data;
   }
 }
