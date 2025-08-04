@@ -1,8 +1,8 @@
 export class City {
   constructor(
-    public readonly name: string,
-    public readonly stationId: string,
-    public readonly lat: number,
-    public readonly lon: number
+    public name: string,
+    public country: string,
+    public latitude: number,
+    public longitude: number
   ) {}
 }

@@ -1,6 +1,5 @@
 export type ActivityType =
-  | 'hiking'
-  | 'surfing'
-  | 'skiing'
-  | 'indoor-sightseeing'
-  | 'outdoor-sightseeing';
+  | 'SKIING'
+  | 'SURFING'
+  | 'INDOOR_SIGHTSEEING'
+  | 'OUTDOOR_SIGHTSEEING';
