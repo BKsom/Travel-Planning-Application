@@ -83,7 +83,7 @@ npx ts-node src/server.ts
 Server should start on http://localhost:4000/graphql
 
 npm run test
----
+
 
 ## 🔌 Sample GraphQL Queries
 
@@ -98,8 +98,8 @@ query {
     longitude
   }
 }
-```
----
+````
+
 ### 2. Weather Forecast
 
 ```graphql
@@ -114,8 +114,8 @@ query {
     pressure
   }
 }
-```
----
+````
+
 ### 3. Recommended Activities
 
 ```graphql
@@ -130,7 +130,7 @@ query {
 ###NB!!!: use city latitude and longitude you det from the partial search(City Suggestions)
 ---
 
-```
+
 We use OpenMeteo's public weather station data:
 
 GET http://api.openmeteo.com/observations/openmeteo/{stationId}/thb0
@@ -145,4 +145,3 @@ Add more weather APIs for richer descriptions
 Add user authentication and saved favorites
 
 Introduce caching for API performance
-```
