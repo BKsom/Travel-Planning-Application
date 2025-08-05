@@ -99,7 +99,7 @@ query {
   }
 }
 ````
-
+---
 ### 2. Weather Forecast
 
 ```graphql
@@ -115,6 +115,7 @@ query {
   }
 }
 ````
+---
 
 ### 3. Recommended Activities
 
@@ -126,7 +127,7 @@ query {
     reason
   }
 }
-```
+````
 ###NB!!!: use city latitude and longitude you det from the partial search(City Suggestions)
 ---
 
