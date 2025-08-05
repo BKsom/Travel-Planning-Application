@@ -1,0 +1,10 @@
+[
+  { "name": "Cape Town", "country": "South Africa", "latitude": -33.9249, "longitude": 18.4241 },
+  { "name": "Durban", "country": "South Africa", "latitude": -29.8587, "longitude": 31.0218 },
+  { "name": "Johannesburg", "country": "South Africa", "latitude": -26.2041, "longitude": 28.0473 },
+  { "name": "Lake Cospuden", "country": "Germany", "latitude": 51.28, "longitude": 12.35 },
+  { "name": "Schladitzer Lake", "country": "Germany", "latitude": 51.43, "longitude": 12.39 },
+  { "name": "Markkleeberg Lake", "country": "Germany", "latitude": 51.26, "longitude": 12.41 },
+  { "name": "Hainer See", "country": "Germany", "latitude": 51.17, "longitude": 12.43 },
+  { "name": "Störmthaler Lake", "country": "Germany", "latitude": 51.22, "longitude": 12.46 }
+]

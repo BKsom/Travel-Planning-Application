@@ -1,13 +1,9 @@
-// src/infrastructure/repositories/CityRepository.ts
 import { ICityRepository } from '../../domain/repositories/ICityRepository';
 import { City } from '../../domain/entities/City';
+import citiesJson from '../../shared/constants/cities.json';
 
 export class CityRepository implements ICityRepository {
-  private cities: City[] = [
-    { name: 'Cape Town', country: 'South Africa', latitude: -33.9249, longitude: 18.4241 },
-    { name: 'Durban', country: 'South Africa', latitude: -29.8587, longitude: 31.0218 },
-    { name: 'Johannesburg', country: 'South Africa', latitude: -26.2041, longitude: 28.0473 },
-  ];
+  private cities: City[] = citiesJson as City[];
 
   async getAllCities(): Promise<City[]> {
     return this.cities;
@@ -21,3 +17,4 @@ export class CityRepository implements ICityRepository {
     );
   }
 }
+

@@ -1,0 +1,8 @@
+[
+  { "id": "cospuden", "name": "Lake Cospuden", "lat": 51.28, "lng": 12.35 },
+  { "id": "schladitzer", "name": "Schladitzer Lake", "lat": 51.43, "lng": 12.39 },
+  { "id": "markkleeberg", "name": "Markkleeberg Lake", "lat": 51.26, "lng": 12.41 },
+  { "id": "hainer", "name": "Hainer See", "lat": 51.17, "lng": 12.43 },
+  { "id": "stormthaler", "name": "Störmthaler Lake", "lat": 51.22, "lng": 12.46 }
+
+]

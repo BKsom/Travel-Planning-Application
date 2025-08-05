@@ -1,6 +1,3 @@
-// src/infrastructure/external/OpenMeteoClient.ts
-// import axios, { Axios } from '../../../node_modules/axios/index';
-// import axios from '../../../node_modules/axios/index';
 import axios from 'axios';
 import { WeatherApiResponse } from './types';
 
