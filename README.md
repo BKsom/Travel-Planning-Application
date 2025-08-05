@@ -31,7 +31,7 @@ This is a TypeScript-based GraphQL API for suggesting travel activities based on
 ---
 
 ## 📁 Folder Structure
-
+```
 src/
 ├── domain/
 │ ├── entities/
@@ -70,7 +70,7 @@ tests/
 │ ├── domain/
 │ └── infrastructre/
 
-
+```
 ---
 
 ## 📦 Installation
