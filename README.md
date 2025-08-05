@@ -146,3 +146,11 @@ Add more weather APIs for richer descriptions
 Add user authentication and saved favorites
 
 Introduce caching for API performance
+
+
+During the task, I used ChatGPT to:
+
+* Break down and understand domain-driven design concepts.
+* Scaffold testable modules for repositories and services.
+
+Judging when to apply ChatGPT's input was key. I used it to complement my own knowledge, especially to cross-check best practices in separation of concerns and test scaffolding—areas. 
